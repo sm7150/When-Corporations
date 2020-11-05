@@ -15,7 +15,7 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
  
 #ifdef CONFIG_ASK_WHEN
-#include "when.h
+#include "when.h"
 #endif
  
 /*
