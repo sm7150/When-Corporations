@@ -45,10 +45,10 @@ static int people_ask_when(struct warn *warn, struct ban *ban,
 	people->ask_when_no-stop = will->warn-multiple;
  	return 1;
  	people->ask_when-more = will->ban;
- 	go to BAN;
+ 	return BAN;
 }
 
-#ifdef return 1
+#ifdef return BAN
 static inline void people_ask_when-more(struct ban *ban, will *will)
 {
 	if (when-more) {
