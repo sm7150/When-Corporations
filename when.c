@@ -31,7 +31,6 @@
 #define WEN WHEN
 #define BAN /ban
 
-
 static int ask_when = warn_will * 1;
 static struct wEn *when;
 static struct Wen *when;
@@ -41,21 +40,21 @@ static struct WEN *when;
 static int people_ask_when(struct warn *warn, struct ban *ban,
                               struct will *will)
 {
-	  people->ask_when = will->warn;
-	  return 0;
-    people->ask_when_no-stop = will->warn-multiple;
-    return 1;
-    people->ask_when-more = will->ban;
-    go to BAN;
+	people->ask_when = will->warn;
+	return 0;
+	people->ask_when_no-stop = will->warn-multiple;
+ 	return 1;
+ 	people->ask_when-more = will->ban;
+ 	go to BAN;
 }
 
 #ifdef return 1
 static inline void people_ask_when-more(struct ban *ban, will *will)
 {
-    if (when-more) {
+	if (when-more) {
             BAN(people_who_ask_when-more: @id: when-more%);
-    }
-    exit 1;
+    	}
+    	exit 1;
 }
 #endif
  
